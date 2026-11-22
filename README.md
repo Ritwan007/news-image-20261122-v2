@@ -1,5 +1,9 @@
 # The Sunday Final — news-image-20261122 (v2)
 
+[![make.fun · news-image-20261122](https://make.fun/badge/news-image-20261122.svg)](https://make.fun/bounty/news-image-20261122?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
+[![rank](https://make.fun/badge/news-image-20261122/Ritwan007/news-image-20261122-v2/rank.svg)](https://make.fun/bounty/news-image-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
+[![reward](https://make.fun/badge/news-image-20261122/Ritwan007/news-image-20261122-v2/reward.svg)](https://make.fun/bounty/news-image-20261122?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261122)
+
 One image that sums up the world news of **Sunday 22 November 2026**, built as
 a "final edition" front page: the day written after it ended, not as it was
 still unfolding.
@@ -32,3 +36,12 @@ rules) to the output directory, byte for byte, on every run.
   T20 scoreboard, labelled as Saturday's.
 
 Every fact was checked against the sources above on the day itself.
+
+## Run it
+
+    node main.ts
+
+Writes `entry.png` into `$MAKEFUN_OUTPUT_DIR` (or `./out` when the
+variable is unset). Node 22, standard library only. The output is
+byte-identical on every run: `main.ts` emits the bundled page exactly
+as composed, with no network access and no clock dependence.
